@@ -1,0 +1,261 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  /* background: red; */
+}
+
+.content span {
+  color: red;
+}
+
+.home .content {
+  flex: 1 1 20rem;
+}
+
+.home .images {
+  flex: 1 1 20rem;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.home .images img {
+  width: 90%;
+  /* padding: 1rem; */
+  animation: float 3s linear infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0rem);
+  }
+  50% {
+    transform: translateY(3rem);
+  }
+}
+
+.content h3 {
+  font-size: 3.5rem;
+  color: #333;
+}
+
+.content p {
+  font-size: 1.5rem;
+  color: #333;
+  padding: 1rem 0;
+}
+
+.heading {
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 1rem;
+  color: #666;
+}
+
+.speciality .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.speciality .box-container .box {
+  flex: 1 1 20rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border: 0.1em solid rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.speciality .box-container .box .image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  transition: all 0.5s linear;
+}
+
+.speciality .box-container .box .content {
+  text-align: center;
+  background: #fff;
+  padding: 1.5rem;
+  transition: all 0.5s linear;
+}
+
+.speciality .box-container .box .content img {
+  width: 20%;
+  /* margin: 1.5rem 0; */
+}
+
+.stars i {
+  color: gold;
+  font-size: 1.2rem;
+}
+.speciality .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.speciality .box-container .box .content p {
+  font-size: 1.5rem;
+  color: #666;
+  padding: 1rem 0;
+}
+
+.speciality .box-container .box:hover .image {
+  top: 0;
+}
+
+.speciality .box-container .box:hover .content {
+  transform: translateY(120%);
+}
+
+.popular .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  /* flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; */
+  gap: 1.5rem;
+}
+
+/* .popular .box-container .box { */
+.popular .box-container .box {
+  flex: 1 1 20rem;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 0.5rem;
+  text-align: center;
+  position: relative;
+}
+
+.popular .box-container .box img {
+  /* width: 25rem; */
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+}
+
+.popular .box-container .box .price {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  background: red;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 3px;
+}
+
+.gallery .box-container {
+  position: relative;
+  display: flex;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  overflow: hidden;
+  padding: 1.5rem;
+  
+}
+
+.gallery .box-container .box {
+  flex: 1 1 20rem;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 0.5rem;
+  text-align: center;
+  position: relative;
+}
+
+.gallery .box-container .box img {
+  width: 100%;
+  /* width: 25rem; */
+  height: 15rem;
+}
+
+.gallery .box-container .content {
+    position: absolute;
+    top: -200%;
+    left: 0;
+}
+
+
+.review  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.review  .box-container .box{
+    text-align: center;
+    padding: 2rem;
+    border: 0.75rem solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: .5rem;
+    flex: 1 1 20rem;
+    background: #333;
+    margin-top: 6rem;
+}
+
+.review  .box-container .box img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    border: 0.5rem solid #fff;
+    margin-top: -8rem;
+    object-fit: cover;
+}
+
+.review  .box-container .box h3{
+    font-size: 2.2rem;
+    color: #fff;
+    padding: .5rem 0;
+}
+
+.review  .box-container .box .stars i {
+   font-size: 1.5rem;
+   color: red;
+   padding: .5rem 0;
+}
+
+.review  .box-container .box p{
+    font-size: 1.2rem;
+    color: #eee;
+    padding: 1rem 0;
+}
+
+.map {
+    margin-top: 30px;
+    width: 100%;
+    height: 70vh;
+    border: 20px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 20px;
+}
+
+.map iframe {
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  /* background-color: aquamarine; */
+  padding: 10px;
+  height: 100vh;
+  /* margin-bottom: 10px; */
+}
+
+.container {
+  background-color: blanchedalmond;
+  /* width: 500px;
+    height: 500px; */
+}
+
+.navigation {
+  background-color: #2C3639;
+  width: 15%;
+  height: 90vh;
+  /* height: 100%; */
+  /* width: 500px;
+    height: 500px; */
+}
+
+.navigation ul {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+
+  list-style: none;
+  margin-top: 40px;
+}
+
+.navigation ul li {
+  /* margin-left: 50px; */
+  /* background: aquamarine; */
+  padding: 10px 20px;
+  width: 100%;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.navigation ul li a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 20px;
+  position: relative;
+  z-index: 10;
+  font-weight: 800;
+}
+
+.navigation ul li::before {
+  content: "";
+  width: 0;
+  background-color: #3F4E4F;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 1;
+  transition: transform 0.5s, width 0.5s cubic-bezier(1, 0, 0, 1) 0.2s,
+    background-color 0.3s, -webkit-transform 0.5s;
+}
+
+.navigation ul li:hover::before {
+  transform: scaleY(1);
+  width: 100%;
+}
+
+.navigation ul li:active::before {
+  transform: scaleY(1);
+  width: 100%;
+}
+
+.active {
+  background: #3F4E4F;
+}
+
+
+
+.search {
+  background-color: #3F4E4F;
+  width: 100%;
+  height: 8vh;
+  /* height: 500px; */
+}
+
+.main-contents {
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  /* width: 500px;
+    height: 500px; */
+}
+
+.contents {
+  background-color: #ccc;
+  width: 85%;
+  overflow: scroll;
+  height: 90vh;
+  position: relative;
+}
+
+.searchForm {
+  
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.searchForm input {
+  border: none;
+  background-color: #f4f4f2;
+  padding: 0.7rem 2rem;
+  border-radius: 0 100px 100px 0;
+  flex: 0 0 30%;
+  outline: none;
+  /* transform: translateX(-50%); */
+}
+
+.searchForm input:active {
+  outline: red;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px; */
+}
+/* .sub-header {
+  color: var(--bbc);
+  text-decoration: underline;
+  text-decoration-color: var(--bbc);
+  text-transform: uppercase;
+}
+*/
+.places,
+.hotel,
+.restaurants,
+.memo {
+  /* margin-top: 30px; */
+  padding: 20px;
+}
+.places-inner,
+.hotel-inner,
+.restaurants-inner,
+.memo-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  /* margin-top: 20px; */
+}
+
+.card {
+  /* padding: 20px; */
+  width: 260px;
+  height: 320px;
+  background: #ddd;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  transition: all 0.5s;
+  border-radius: 10px;
+}
+
+
+.top {
+  width: 100%;
+  height: 50vh;
+  background: #A27B5C;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  transition: all 0.5s;
+}
+
+.bottom {
+  width: 100%;
+  height: 0;
+  background: #DCD7C9;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+  transition: all 0.5s;
+}
+
+/*.top-active-height {*/
+/*  */
+/*}*/
+
+/*.bottom-active-height {*/
+
+/*}*/
+
+.active-content .top{
+  top: 0;
+}
+
+.active-content .bottom {
+  /*bottom: 0;*/
+  height: 50vh;
+}
+
+
+.contents {
+  position: relative;
+}
+
+.img-class {
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.content-class {
+  width: 100%;
+  padding: 15px;
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+  /* flex-direction: column; */
+}
+
+.content-class h1{
+  font-size: 15px;
+  font-weight: 800;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+.content-class p{
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.btn-class {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+  background-color: #3b3b08;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  cursor: pointer;
+}
+
+
+.icon {
+  background: #f4f4f4;
+  border: none;
+  color: #aaa;
+  /* padding: 0.7rem 0.7rem 2rem 0.7rem; */
+  padding: 0.69rem 0.8rem;
+  
+  
+  border-radius: 100px 0 0 100px;
+  /* flex: 0 0 30%; */
+}

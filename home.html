@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./style/swiper.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;&family=Rubik:ital,wght@0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <link rel="stylesheet" href="./style/style.css" />
+  <body>
+    <div class="navigation">
+      <div for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon"></span>
+        <span class="navigation__icon"></span>
+        <span class="navigation__icon"></span>
+      </div>
+      <div class="navigation__background"></div>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="./home.html" class="navigation__link"
+              ><span><i class="fa-solid fa-house"></i></span>Home Page</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="./main.html" class="navigation__link"
+              ><span><i class="fa-regular fa-compass"></i></span>Main Page</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="./gallery.html" class="navigation__link"
+              ><span><i class="fa-solid fa-image"></i></span>Gallery</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#contact" class="navigation__link"
+              ><span><i class="fa-solid fa-phone"></i></span>Contact Us</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="./Login.html" class="navigation__link"
+              ><span><i class="fa-solid fa-user"></i></span>Login</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="intro__heading">
+      <div class="intro__logo"></div>
+      <div class="intro__content">
+        <h3>SEA OF TEMPLES</h3>
+        <p>Discover with us...</p>
+        <a href="./main.html" class="intro__btn">discover more</a>
+      </div>
+      <div class="video-container">
+        <video
+          src="./img/vid-Bagan1.mp4"
+          id="video-slider"
+          loop
+          autoplay
+          muted
+        ></video>
+        <!--        <img src="./img/background/photo1.PNG" alt="" id="photo-slider">-->
+      </div>
+      <div class="blur"></div>
+    </header>
+    <main>
+      <section class="section__about">
+        <div class="about__heading">
+          <h2 class="secondary__heading">
+            Beautiful places are waiting for you
+          </h2>
+        </div>
+
+        <div class="about__row">
+          <div class="col_1_of_2">
+            <h3 class="tertiary__heading">
+              Heading to Myanmar soon and looking for all the need to know
+              information about Bagan?
+            </h3>
+            <p class="paragraph">
+              Bagan, an ancient city located in the Mandalay region is one of
+              the most visited places by tourists in the country. The city
+              served as the capital of Myanmar from the 9th to 13th centuries.
+              It was the capital of the Pagan kingdom, the kingdom which unified
+              regions that constitute the Myanmar of today. The Bagan
+              Archaeological Zone is the main attraction of the country and is
+              one of the richest archaeological sites in Southeast Asia.
+            </p>
+            <h3 class="tertiary__heading">
+              WHAT IS THE BEST TIME TO VISIT BAGAN?
+            </h3>
+            <p class="paragraph">
+              Bagan is hot most of the year. Bagan’s climate is relatively
+              predictable with seasons changing each year at around the same
+              time. The best time to visit is between November and February,
+              when temperatures hit 30C (86F). Avoid March to May, when
+              temperatures can reach 43C (110F). Rainfall is highest in June and
+              October.
+            </p>
+          </div>
+          <div class="col_2_of_2">
+            <div class="composition">
+              <img
+                src="./img/background/photo3.JPG"
+                alt="bagan_photo1"
+                class="bagan__img img1"
+              />
+              <img
+                src="./img/background/photo1.PNG"
+                alt="bagan_photo2"
+                class="bagan__img img2"
+              />
+              <img
+                src="./img/background/photo2.PNG"
+                alt="bagan_photo3"
+                class="bagan__img img3"
+              />
+              <!-- </div> -->
+            </div>
+          </div>
+          <!-- <div> -->
+        </div>
+      </section>
+      <section class="services__section div--1">
+        <!-- <div class="resources-header">
+          <span class="resources-header-active">R</span>
+          <span>E</span>
+          <span class="resources-header-active">S</span>
+          <span>O</span>
+          <span>u</span>
+          <span>r</span>
+          <span class="resources-header-active">c</span>
+          <span>e</span>
+          <span>s</span>
+        </div> -->
+        <div class="resources-inner container">
+          <div class="place cards" data-aos="fade-up">
+            <div class="icon">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <h2 class="sub-header">EXPLORE THE BAGAN</h2>
+            <p class="contents">
+              Bagan Archaeological Zone is one of the richest archaeological
+              sites in Asia. The remains of several thousand of these structures
+              still exist, in varying states of conservation. The architecture
+              of the buildings is magnificent, and shows off the artistic and
+              engineering achievements of ancient Myanmar craftsmen.<!--  Bagan is a
+              UNESCO World Heritage Site. -->
+            </p>
+          </div>
+          <div class="hotel cards" data-aos="fade-up">
+            <div class="icon">
+              <i class="fa-solid fa-hotel"></i>
+            </div>
+            <h2 class="sub-header">HOTEL AND ACCOMMODATION</h2>
+            <p class="contents">
+              There are now over 50 hotels in Bagan offering accommodation
+              options to suit all visitors from budget through to luxury
+              although typical prices in Bagan are slightly higher for the same
+              quality of room compared to much of the rest of Myanmar. Many
+              places offer individual bungalow-style accommodation and numerous
+              <!-- places, even some in the budget range, have swimming pools which
+              are a great way to cool off and relax after a busy day viewing the
+              sights. -->
+            </p>
+          </div>
+          <div class="food cards" data-aos="fade-up">
+            <div class="icon">
+              <i class="fa-solid fa-utensils"></i>
+            </div>
+            <h2 class="sub-header">Meet Food</h2>
+            <p class="contents">
+              Bagan is a famous tourist destination in Myanmar. There are lots
+              of tourists everyday. There are traditional Burmese food including
+              Burmese curry, rice noodles with coconut juice and chicken, tea
+              leaf salad, fish soup rice noodles and glutinous rice. Noodle is
+              very popular in Bagan, there are many kinds of noodles here such
+              as Shan tofu, Nangyi thoke, Mohinga and Shan’s noodle, etc.
+              <!-- Shan
+              tofu noodle is the most unique and traditional dish of the Shan
+              tribe in Myanmar. -->
+            </p>
+          </div>
+          <div class="memo cards" data-aos="fade-up">
+            <div class="icon">
+              <i class="fa-solid fa-gift"></i>
+            </div>
+            <h2 class="sub-header">Keep Memeory</h2>
+            <p class="contents">
+              Although the best way to explore these temples is by foot, a
+              unique idea to enjoy a panoramic view of the Bagan temples is by
+              taking a ride on a hot air balloon. The town is not only about
+              temples. You should also take a cruise down the Ayeyarwady river
+              that the heart line of Myanmar and enjoy the scenic sunsets. You
+              can also take a boat ride between Mandalay and Bagan and enjoy the
+              view.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="popular-section div--2">
+        <div class="div--2-sub-class">
+          <div class="resources-header">
+            <span class="resources-header-active">M</span>
+            <span class="resources-header-active">O</span>
+            <span class="resources-header-active">S</span>
+            <span class="resources-header-active">T&nbsp;</span>
+            <span class="resources-header-active">popular places</span>
+          </div>
+          <!--  -->
+          <div class="card-detail">
+            <div class="card">
+              <div class="flip-content">
+                <div class="front">
+                  <div class="front__img"></div>
+                  <div class="front__content">
+                    <ol>
+                      <li>ShweZiGon Pagoda</li>
+                      <li>Year (1059-1060 AD)</li>
+                      <li>King Anawrahta(1044-77)</li>
+                      <li>Located in Nyaung-U</li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="back">
+                  <h1>ShweZiGon Pagoda</h1>
+                  <p>
+                    ထီး မဆိုင်း၊ တံတိုင်းမှာရိပ်တည်။ မလွင့်
+                    ရွှေလှောင်ပ၊ဗိုလ်သောင်းထောင်ဝင် မကျပ်သည့်ပြင်၊ ဆွမ်းကပ်သူ
+                    လက်မဦး နိုင်ဘု၊မထူးမြည်ကြာဟီး၊ ထီးတော့ ရွှေစည်။
+                    မြင့်ဝှမ်းယောင် ထင်စနိုးရသည့်၊မိုးကပ်ပြု ရေအရည်၊ အနည်းမျှ
+                    မကြွင်း၊ ချယားပင်ဒွါဒသင်ခါမလင့်ပြီဘု၊ ဖူးပွင့်ကြူထုံတဲ့၊
+                    ဇေယျခုံ အံ့ဖွယ်ကိုးကိုုးခဝပ်စင်း' ဟု၍ ကင်းဝန်မင်းကြီးက
+                    စပ်ဆို ပူဇော်ခဲ့သောအံ့ကိုးပါးနှင့် ပြည့်စုံတော်မူခဲ့သည်...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+
+            <!--  -->
+            <div class="card">
+              <div class="flip-content">
+                <div class="front">
+                  <div class="front__img front__img2"></div>
+                  <div class="front__content">
+                    <ol>
+                      <li>Arnada Pagoda</li>
+                      <li>Year (1104-1105 AD)</li>
+                      <li>King KyanZittha(1084-1012)</li>
+                      <li>Located in Anawrahta Road</li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="back">
+                  <h1>Anada Pagoda</h1>
+                  <p>
+                    အာနန္ဒာဘုရားသည် ပုဂံ၏ အထင်ရှားဆုံးနှင့် အလှပဆုံး
+                    ဘုရားကျောင်းများထဲမှ တစ်ခုဖြစ်သည်။ ပုဂံတွင်
+                    ပထမဆုံးတည်ဆောက်ခဲ့သော
+                    ကြီးကျယ်ခမ်းနားသောပုထိုးတော်ကြီးများထဲမှ တစ်ခုဖြစ်ပြီး
+                    ကောင်းမွန်စွာထိန်းသိမ်းထားသည်။ ပုဂံမြို့ရိုးဟောင်းတွင် မူလ
+                    ၁၂ တံခါး ကျန်ရှိသည့် တစ်ခုတည်းသော တံခါးကို သာရတံခါးအနီးတွင်
+                    တွေ့ရှိရသည်။
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+
+            <!--  -->
+            <div class="card">
+              <div class="flip-content">
+                <div class="front">
+                  <div class="front__img front__img3"></div>
+                  <div class="front__content">
+                    <ol>
+                      <li>Bupaya Pagoda</li>
+                      <li>Year (1059-1060 AD)</li>
+                      <li>King Pyusawti(1044-77)</li>
+                      <li>Bagan, Myanmar</li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="back">
+                  <h1>Bupaya Pagoda</h1>
+                  <p>
+                    ဗူးဘုရားသည် မြန်မာနိုင်ငံ၊ မန္တလေးတိုင်းဒေသကြီး၊
+                    ပုဂံမြိုအနီး ဧရာဝတီမြစ် ကမ်းနဖူး၌ တည်ရှိပြီး မြစ်ကမ်းစပ်တွင်
+                    ခရုပတ်သဖွယ် စိန်တန်းနှစ်သွယ်နှင့် တည်ဆောက်ထားသည်။
+                    စေတီပုထိုးအမှတ်မှာ ၁၆၅၇/၉၆၁ ဖြစ်သည်။ဗူးဘုရားကို ပုဂံနန်းစံ
+                    တတိယမြောက်ဘုရင် ပျူစောထီး တည်ခဲ့သည်။ ဘုရင်ပျူစောထီးသည်
+                    ပြည်သူများကို ဒုက္ခပေးနေသော ရှူးပျံ၊ ဝက်၊ ဗူး၊ ကျားနှင့်
+                    ငှက်တို့ကို နှိမ်နင်းခဲ့ရသည်။
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            href="main.html
+              "
+            class="intro__btn"
+            >See more...</a
+          >
+        </div>
+      </section>
+      <section class="gallery__section div--3 gallery" id="gallery">
+        <!-- <div class="" > -->
+        <div class="resources-header">
+          <span class="resources-header-active">G</span>
+          <span class="resources-header-active">A</span>
+          <span class="resources-header-active">L</span>
+          <span class="resources-header-active">L</span>
+          <span class="resources-header-active">E</span>
+          <span class="resources-header-active">R</span>
+          <span class="resources-header-active">Y</span>
+        </div>
+        <div class="box-container">
+          <div class="box">
+            <img src="./img/gallery/photo1.jpg" alt="" />
+            <div class="content">
+              <h3>Gallery Of Bagan</h3>
+              <p>The world is not in your books and maps it's out there.</p>
+              <a href="/gallery.html" class="intro__btn gallery_btn">see more</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="./img/gallery/photo2.jpg" alt="" />
+            <div class="content">
+              <h3>Gallery Of Bagan</h3>
+              <p>The world is not in your books and maps it's out there.</p>
+              <a href="/gallery.html" class="intro__btn gallery_btn">see more</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="./img/gallery/photo3.jpg" alt="" />
+            <div class="content">
+              <h3>Gallery Of Bagan</h3>
+              <p>The world is not in your books and maps it's out there.</p>
+              <a href="/gallery.html" class="intro__btn gallery_btn">see more</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="./img/gallery/photo4.jpg" alt="" />
+            <div class="content">
+              <h3>Gallery Of Bagan</h3>
+              <p>The world is not in your books and maps it's out there.</p>
+              <a href="/gallery.html" class="intro__btn gallery_btn">see more</a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="./img/gallery/photo5.jpg" alt="" />
+            <div class="content">
+              <h3>Gallery Of Bagan</h3>
+              <p>The world is not in your books and maps it's out there.</p>
+              <a href="/gallery.html" class="intro__btn gallery_btn">see more</a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="./img/gallery/photo6.jpg" alt="" />
+            <div class="content">
+              <h3>Gallery Of Bagan</h3>
+              <p>The world is not in your books and maps it's out there.</p>
+              <a href="#" class="intro__btn gallery_btn">see more</a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="./img/gallery/photo7.jpg" alt="" />
+            <div class="content">
+              <h3>Gallery Of Bagan</h3>
+              <p>The world is not in your books and maps it's out there.</p>
+              <a href="/gallery.html" class="intro__btn gallery_btn">see more</a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="./img/gallery/photo8.jpg" alt="" />
+            <div class="content">
+              <h3>Gallery Of Bagan</h3>
+              <p>The world is not in your books and maps it's out there.</p>
+              <a href="/gallery.html" class="intro__btn gallery_btn">see more</a>
+            </div>
+          </div>
+        </div>
+        <a href="./gallery.html" class="intro__btn">See more...</a>
+        <!-- </div> -->
+      </section>
+      <section class="review__section">
+        <div class="resources-header">
+          <span class="resources-header-active">R</span>
+          <span class="resources-header-active">E</span>
+          <span class="resources-header-active">V</span>
+          <span class="resources-header-active">I</span>
+          <span class="resources-header-active">E</span>
+          <span class="resources-header-active">W</span>
+          <span class="resources-header-active">S</span>
+        </div>
+
+        <div class="reviews_slide">
+          <div class="user__img">
+            <img src="./img/userImg/user1.jpg" alt="" />
+          </div>
+          <div class="user__review">
+            <h3>Review 1</h3>
+            <p>
+              I went twice, and it was a temple in all directions, a traditional
+              Buddhist shrine in Myanmar. The people there are also very
+              enthusiastic, there is also a Myardang mountain, from the mountain
+              to see the whole Bagan mood is really good, there are many
+              Buddhist temples to explore history is recommended to take a look.
+            </p>
+          </div>
+        </div>
+
+        <div class="reviews_slide">
+          <div class="user__img">
+            <img src="./img/userImg/user6.jpg" alt="" />
+          </div>
+          <div class="user__review">
+            <h3>Review 2</h3>
+            <p>
+              Excellent location: you see pagodas from terrace and ballons are
+              going over your head. Nice looking hotel. Big rooms. Rick buffet
+              breakfast. Personnel very friendly and willing to help. Temple
+              view, beautiful sunrise every day and ballons flying just over our
+              heads. Delicious breakfast and relaxing swimming pool. You wont
+              regret, if you take this hotel ;) Good place to stay in New Bagan.
+              Location is great. They let us to do late check out for small
+              money, witch was great after all day exploring Bagan.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="about__us__section">
+        <div class="resources-header">
+          <span class="resources-header-active">A</span>
+          <span class="resources-header-active">B</span>
+          <span class="resources-header-active">O</span>
+          <span class="resources-header-active">U</span>
+          <span class="resources-header-active">T</span>
+          <span class="resources-header-active">&nbsp; U</span>
+          <span class="resources-header-active">S</span>
+        </div>
+        <div class="about__section">
+          <div class="users_1">
+            <div class="cards_">
+              <img
+                src="./img/projectMembers/member1.jpg"
+                alt="user"
+                class="user__img"
+              />
+              <h3 class="user__name">Tun Tun Myint</h3>
+              <span class="user__position">Leader</span>
+              <ul class="icons">
+                <li>
+                  <a href="#"><i class="fa-solid fa-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="cards_">
+              <img src="./img/projectMembers/member2.jpg" alt="user" class="user__img" />
+              <h3 class="user__name">Phyo Pyae Sone</h3>
+              <span class="user__position">Member</span>
+              <ul class="icons">
+                <li>
+                  <a href="#"><i class="fa-solid fa-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="cards_">
+              <img src="./img/projectMembers/member3.jpg" alt="user" class="user__img" />
+              <h3 class="user__name">Tin Aung Cho</h3>
+              <span class="user__position">Member</span>
+              <ul class="icons">
+                <li>
+                  <a href="#"><i class="fa-solid fa-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="cards_">
+              <img src="./img/projectMembers/member4.jpg" alt="user" class="user__img" />
+              <h3 class="user__name">Shine Si Lwin</h3>
+              <span class="user__position">Member</span>
+              <ul class="icons">
+                <li>
+                  <a href="#"><i class="fa-solid fa-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="cards_">
+              <img src="./img/projectMembers/member5.jpg" alt="user" class="user__img" />
+              <h3 class="user__name">Si Thu Linn</h3>
+              <span class="user__position">Member</span>
+              <ul class="icons">
+                <li>
+                  <a href="#"><i class="fa-solid fa-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="cards_">
+              <img src="./img/projectMembers/member6.jpg" alt="user" class="user__img" />
+              <h3 class="user__name">Chaw Yu Thwin</h3>
+              <span class="user__position">Member</span>
+              <ul class="icons">
+                <li>
+                  <a href="#"><i class="fa-solid fa-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="cards_">
+              <img src="./img/projectMembers/member7.jpg" alt="user" class="user__img" />
+              <h3 class="user__name">Eaint Chit Poe</h3>
+              <span class="user__position">Member</span>
+              <ul class="icons">
+                <li>
+                  <a href="#"><i class="fa-solid fa-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="cards_">
+              <img src="./img/projectMembers/member8.jpg" alt="user" class="user__img" />
+              <h3 class="user__name">May Thu Thu Kyaw</h3>
+              <span class="user__position">Member</span>
+              <ul class="icons">
+                <li>
+                  <a href="#"><i class="fa-solid fa-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="users_2"></div>
+        </div>
+      </section>
+
+      <section class="section-book" id="contact">
+        <div class="row">
+          <div class="book">
+            <div class="book__form">
+              <form action="#" class="form">
+                <div class="u-margin-bottom-medium">
+                  <h2 class="heading-secondary">Contact Us</h2>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="Full name"
+                    id="name"
+                    required
+                  />
+                  <!-- <label for="name" class="form__label">Full name</label> -->
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="email"
+                    class="form__input"
+                    placeholder="Email address"
+                    id="email"
+                    required
+                  />
+                  <!-- <label for="email" class="form__label">Email address</label> -->
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="Phone Number"
+                    id="phone"
+                    required
+                  />
+                  <!-- <label for="email" class="form__label">Email address</label> -->
+                </div>
+
+                <div class="form__group">
+                  <button class="intro__btn">Next step &rarr;</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <picture class="footer__logo">
+          <img alt="Full logo" src="./img/icons/bagan3.png" />
+          <h3 class="logo">Sea Of Temples</h3>
+        </picture>
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">About</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Contact us</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Gallery</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Privacy policy</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <p class="footer__copyright">
+            Developed by <a href="#" class="footer__link">Project Group 1</a>.
+            Copyright &copy; by ttm. You are not allowed to use this webpage.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="./javascript/swiper.js"></script>
+    <script>
+      const navBtn = document.querySelector(".navigation__button");
+      const navList = document.querySelector(".navigation__list");
+      navBtn.addEventListener("click", function (e) {
+        navBtn.classList.toggle("active__btn");
+        navList.classList.toggle("active__navigation__list");
+      });
+
+      let swiper = new Swiper(".mySwiper", {
+        slidesPerView: 2.5,
+        spaceBetween: 30,
+        freeMode: true,
+        // centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+  </body>
+</html>
