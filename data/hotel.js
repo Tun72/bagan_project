@@ -46,16 +46,20 @@ const hotel_data = [
             Restaurant ရှိတယ်။ `,
       },
     ],
-    location: "",
+    location:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.4016614899824!2d94.91437031424793!3d21.1761971881061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30b5fae7c9a05ff9%3A0x41c09f8cfd53aece!2sBagan%20Sense%20Hotel!5e0!3m2!1smy!2smm!4v1676916439992!5m2!1smy!2smm",
   },
   {
     id: 2,
-    begin: `ပုဂံကတစ်ယောက်ကို 2သောင်းဝန်းကျင်နဲ့ ရေကူးကန်ရော Sunset
-      နေ့တိုင်းကြည့်လို့ရမယ့် Rooftop bar ပါ ပါတဲ့ "Bagan Sense Hotel"
-      ဟိုတယ်ကမုခ်ဦးဘေးကပ်လျက်မှာပဲရှိတာဆိုတော့ ညောင်ဦးမြို့နဲ့နီးပါတယ်။
-      နာမည်ကြီးဘုရားဆို ရွှေစည်းခုံ၊ ငှက်ပစ်တောင်တို့နဲ့နီးပါတယ်
-      ဟိုတယ်ကအထပ်၃ထပ်နဲ့ rooftop ရှိတယ်။ အောက်ဆုံးထပ်မှာရေကူးကန်နဲ့
-      Restaurant ရှိတယ်။`,
+    begin: `Bagan Umbra Hotel ရှိ
+    သန့်ရှင်းသပ်ရပ်သောအခန်းများ
+    အကောင်းဆုံးဘူဖေးမနက်စာ
+    ရေကူးကန်(၂)ကန် အသုံးပြုခွင့်
+    အခမဲ့ WiFi Internet 
+    ကျယ်၀န်းသောကားပါကင်၊ စိမ်းစိုလှပသောဥယျာဉ်၊ 
+    24နာရီလုံးလုံခြံစိတ်ချ၍ ပြီးပြည့်စုံသော ၀န်ဆောင်မှုအစုံအလင်ကို စိတ်ကျေနပ်မှုရရှိစေရန် ၀န်ထမ်းများမှဆောင်ရွက်ပေးနေပါသည်။
+    
+    Bagan Sense Hotel`,
     pagoda: "Bagan Hotel Umbra",
     intro: [
       {
@@ -86,16 +90,17 @@ Food
             ယိုးဒယားအကင်စုံနဲ့ ပင်လယ်စာအထောင်းတွေရယ်....သောက်မယ်..စားမယ်..ရေကူးမယ်..အပမ်းဖြေကြမယ်ပေါ့.....အရသာရှိပြီးသန့်ရှင်းလတ်ဆက်ကောင်းမွန်လှတဲ့ Umbraရဲ့ Buffet Breakfast ကိုလဲ အားရပါးရ သုံးဆောင်နိုင်ပါသေးတယ်.`,
       },
     ],
-    location: "",
+    location:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.4016614899824!2d94.91437031424793!3d21.1761971881061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30b5fae7c9a05ff9%3A0x41c09f8cfd53aece!2sBagan%20Sense%20Hotel!5e0!3m2!1smy!2smm!4v1676916439992!5m2!1smy!2smm",
   },
   {
     id: 3,
-    begin: `ပုဂံကတစ်ယောက်ကို 2သောင်းဝန်းကျင်နဲ့ ရေကူးကန်ရော Sunset
-      နေ့တိုင်းကြည့်လို့ရမယ့် Rooftop bar ပါ ပါတဲ့ "Bagan Sense Hotel"
-      ဟိုတယ်ကမုခ်ဦးဘေးကပ်လျက်မှာပဲရှိတာဆိုတော့ ညောင်ဦးမြို့နဲ့နီးပါတယ်။
-      နာမည်ကြီးဘုရားဆို ရွှေစည်းခုံ၊ ငှက်ပစ်တောင်တို့နဲ့နီးပါတယ်
-      ဟိုတယ်ကအထပ်၃ထပ်နဲ့ rooftop ရှိတယ်။ အောက်ဆုံးထပ်မှာရေကူးကန်နဲ့
-      Restaurant ရှိတယ်။`,
+    begin: `အညာစာasia foodတွေကိုတစ်နေ့တစ်မျိုးမရိုးရအောင်စားရမယ့်မနက်စာဘူဖေး ကားဂိတ် လေဆိပ် ရထားဘူတာ အကြို Free ဝန်ဆောင်မှု(ချစ်ရတဲ့ဧည်သည်တွေအဆင်ပြေဖို)
+    Wifi အခန်းအတွင်း facility အပြည့်(air con/TV/mini bar/bathroom amenity/ ရေပူ အေး) 
+    Hotel Rooftop မှာ Sunset & Sunrise ကြည့်မလား Dinner စားမလား
+    ချစ်ရတဲ့ ဧည် သည် တွေ ညဘက်ကျ မပျင်းရ အောင် UNO  မြွေဂိမ်း မိုနိုပိုလီ ဒိုးဆက် အစရှိ သောဂိမ်းမျိုးစုံကိုလည်းထားထား ပေးပါတယ်
+    tuk tuk/ebike/car rental service/bus ticket/air ticket/hot air balloon ticket/Lunch / Dinner Services 
+    ဝန်ဆောင်မှုကောင်ကောင်းတဲ့Hotelလေး မိုလို ဘိုကင်ကြိုယူထားမှစိတ်ချရမယ်`,
     pagoda: "Bagan Diamond Crown Hotel",
     intro: [
       {
@@ -133,7 +138,8 @@ Food Services
       },
     ],
     img: "./img/hotels/BaganDiamondCrownHotel",
-    location: "",
+    location:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.4347543234985!2d94.91842831424786!3d21.17488158815123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30b5fb195333e961%3A0xf04a3ce94197d8ff!2sBagan%20Diamond%20Crown%20Hotel!5e0!3m2!1smy!2smm!4v1676916670678!5m2!1smy!2smm",
     images: {
       background: "./img/hotels/BaganDiamondCrownHotel/background.jpg",
     },
@@ -148,12 +154,10 @@ Food Services
   {
     id: 4,
     pagoda: "My Place Hotel - Bagan ",
-    begin: `ပုဂံကတစ်ယောက်ကို 2သောင်းဝန်းကျင်နဲ့ ရေကူးကန်ရော Sunset
-    နေ့တိုင်းကြည့်လို့ရမယ့် Rooftop bar ပါ ပါတဲ့ "Bagan Sense Hotel"
-    ဟိုတယ်ကမုခ်ဦးဘေးကပ်လျက်မှာပဲရှိတာဆိုတော့ ညောင်ဦးမြို့နဲ့နီးပါတယ်။
-    နာမည်ကြီးဘုရားဆို ရွှေစည်းခုံ၊ ငှက်ပစ်တောင်တို့နဲ့နီးပါတယ်
-    ဟိုတယ်ကအထပ်၃ထပ်နဲ့ rooftop ရှိတယ်။ အောက်ဆုံးထပ်မှာရေကူးကန်နဲ့
-    Restaurant ရှိတယ်။`,
+    begin: `အခန်းပုံစံတွေက Modern Minimalist Style Rooms လေးတွေနဲ့။Room Type တွေမတူသလိုပါတဲ့ Facilities လေးတွေလည်းအနည်းငယ်ကွာတယ်။Room Rate-၂ယောက်ခန်း 37,000 ကစလို Family Room 93,000 အထိအစားစားရှိပါတယါ။ 
+    မနက်စာလည်းရပြီး ရေကူးကန်လေးဘေးမှာစားရတာ မိုက်မှမိုက်ပဲ။မီးမလာရင်လည်း ၂ နာရီလာ၊ ၁ နာရီပျက် အစီအစဉ်လေးနဲ့ မီးစက်ပေးထားလို စိတ်ချမ်းသာစရာပါ။ Chill AreaFree Bicycle Freeflow Coffee & Tea Bar,Unplugged Band 
+    သူငယ်ချင်းတွေအုပ်စုလိုက်နဲ့ မိသားစုလိုက်တွေ လာတည်းကြတာများတယ်။ 
+    နေရာကလည်းအချက်အချာကျဆို ပုဂံသွားတဲ့သူတိုင်းမသိသူမရှိတဲ့ FIT လမ်းထိပ်မှာပါ။ `,
     intro: [
       {
         content: ` 🏊🏻‍♀️ ရေကူးကန်အကြီးကြီးရှိပါတယ်။ရေကူးကန်ဘေးက အခန်းတွေဆို ဘန်ဂလိုပုံစံမျိုးဆောက်ထားတာမို ချောင်းသာ Vibe မျိုးခံစားရစေမှာပါ။
@@ -173,24 +177,33 @@ Food Services
       },
     ],
     img: "./img/hotels/MyPlaceHotel_Bagan",
-    location: "",
+    location:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.021373298451!2d94.89965331424821!3d21.191309887586613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30b5fbd700c47919%3A0xd1159d8d72762308!2sMy%20Place%20Hotel%2C%20Bagan!5e0!3m2!1smy!2smm!4v1676916731451!5m2!1smy!2smm",
     images: {
       background: "./img/hotels/MyPlaceHotel_Bagan/background.jpg",
     },
     about: [
       {
-        para1: `ရေကူးကန်အကြီးကြီးရှိပါတယ်။ရေကူးကန်ဘေးက အခန်းတွေဆို ဘန်ဂလိုပုံစံမျိုးဆောက်ထားတာမို ချောင်းသာ Vibe မျိုးခံစားရစေမှာပါ။
-
-        🏠အခန်းပုံစံတွေက Modern Minimalist Style Roomsတွေပါ။ Room Type တွေလည်းမတူသလို ပါတဲ့ Facilities လေးတွေလည်းအနည်းငယ်ကွာပါတယ်။
-        အခန်းတွေက Cozy Private ကစတယ်။ ၂ ယောက်ခန်းကို 37,000ကျပ်ပါ။ Cozy Private ကိုမှ Garden နဲ့ Pool View ရှိပါတယ်။ Pool View ဆို 40,000  ကျပ်ပါ။
-        🏖️Wonderful Private (Pool Direct Access) ကို 44,000 နဲ့ Fabulous Private w/Balcony ဆို 47,000 ကျပ်ပါ။
-        👩‍👩‍👧‍👧Family Room ၄ ယောက်ကို 72,000. Fabulous Family Room ၄ယောက်ခန်းကို 93,000 ပါ။`,
+        para1: `အခန်းပုံစံတွေက Modern Minimalist Style Rooms လေးတွေနဲ့။Room Type တွေမတူသလိုပါတဲ့ Facilities လေးတွေလည်းအနည်းငယ်ကွာတယ်။Room Rate-၂ယောက်ခန်း 37,000 ကစလို Family Room 93,000 အထိအစားစားရှိပါတယါ။ 
+        မနက်စာလည်းရပြီး ရေကူးကန်လေးဘေးမှာစားရတာ မိုက်မှမိုက်ပဲ။မီးမလာရင်လည်း ၂ နာရီလာ၊ ၁ နာရီပျက် အစီအစဉ်လေးနဲ့ မီးစက်ပေးထားလို စိတ်ချမ်းသာစရာပါ။ Chill AreaFree Bicycle Freeflow Coffee & Tea Bar,Unplugged Band 
+        သူငယ်ချင်းတွေအုပ်စုလိုက်နဲ့ မိသားစုလိုက်တွေ လာတည်းကြတာများတယ်။ 
+        နေရာကလည်းအချက်အချာကျဆို ပုဂံသွားတဲ့သူတိုင်းမသိသူမရှိတဲ့ FIT လမ်းထိပ်မှာပါ။ `,
       },
     ],
   },
   {
-    id: 1,
+    id: 5,
     pagoda: "ShweKantKawHotel",
+    begin: `အစိမ်းနဲ့အနီရောစပ်ထားတဲ့ တန်ဖိုးကြီးပန်းချီကားတစ်ချပ်ကို ကိုယ်တိုင်ပိုင်ဆိုင်ခွင့်ရလိုက်သလို ခံစားမှုမျိုးကိုရနိုင်တာအမှန်ပဲ။အညာမိုးနဲ့ပုဂံကအဲ့လိုကို လှတာ။ ပုံလေးတွေထဲကအတိုင်းပဲ။
+    မိုးရာသီပုဂံလာလည်မယ်ဆိုရင် ရွှေကံ့ကော်ဟိုတယ် Shwe Kant Kaw Hotel, Bagan မှာလာရောက်တည်းခိုဖိုဖိတ်ခေါ်ပါတယ်နော်
+    မြိုလယ်မှာရှိပြီး အားလုံးနဲ့နီး သွားလာရလည်းလွယ်ကူတယ်။ ဟိုတယ်မှာ All in One အကုန်လည်းရနိုင်ပါတယ်
+    လိုအပ်သော အသုံးအဆောင်များပါဝင်တဲ့ သန့်ပြန့်ကျယ်ဝန်းသောအခန်းများ( Clean, Wide and Furnished Rooms)
+    ဘူဖေးနံနက်စာ (Buffet Breakfast)
+    ရေကူးကန် (Swimming Pool)
+    စားသောက်ခန်း (Restaurant)
+    Tuk Tuk & E-Bike ဝန်ဆောင်မှု
+    ကား၊ လေယာဉ်လက်မှတ်ဝန်ဆောင်မှု (Ticketing)
+    ဒါတွေအားလုံးစီစဉ်ဆောင်ရွက်ပေးပါတယ်။`,
     intro: [
       {
         content: `✳️ပုဂံကို လာလည်တဲ့ဧည့်သည်တွေက ကိုယ့်ရဲ့ ခရီးသွား Mood နဲ့ Expense ပေါ်မူတည်ပြီးတည်းခိုဖို ဟိုတယ်ရွေးချယ် စီစဉ်လေ့ရှိကြပါတယ်။
@@ -234,7 +247,8 @@ Deluxe Family Room : 60000MMK
       },
     ],
     img: "./img/hotels/ShweKantKawHotel",
-    location: "",
+    location:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.5300201499927!2d94.85964441424711!3d21.131295389647377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30b5e59565601895%3A0xf8dacec9957d3cb1!2sShwe%20Kant%20Kaw%20Hotel!5e0!3m2!1smy!2smm!4v1676916830075!5m2!1smy!2smm",
     images: {
       background: "./img/hotels/ShweKantKawHotel/background.jpg",
     },

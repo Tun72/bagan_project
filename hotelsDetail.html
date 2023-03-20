@@ -17,46 +17,124 @@
     />
   </head>
   <body>
+    <!-- <div class="loading">
+      <div class="load">
+        <div class="loader"></div>
+      </div>
+    </div> -->
+
+    <div class="navigation">
+      <div for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon"></span>
+        <span class="navigation__icon"></span>
+        <span class="navigation__icon"></span>
+      </div>
+      <div class="navigation__background"></div>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="./home.html" class="navigation__link"
+              ><span><i class="fa-solid fa-house"></i></span>Home Page</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="./main.html" class="navigation__link"
+              ><span><i class="fa-regular fa-compass"></i></span>Main Page</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="./gallery.html" class="navigation__link"
+              ><span><i class="fa-solid fa-image"></i></span>Gallery</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#contact" class="navigation__link"
+              ><span><i class="fa-solid fa-phone"></i></span>Contact Us</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="./Login.html" class="navigation__link"
+              ><span><i class="fa-solid fa-user"></i></span>Login</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <header class="hotel_heading">
       <div class="heading">
-        <h1>Hotel Details</h1>
-        <p>
-          I'm so fast that last night I turned off the light switch in my hotel
-          room and was in bed before the room was dark.
-        </p>
+        <h1 class="heading_intro"></h1>
       </div>
       <div class="photos">
         <div class="photo-div">
-          <img src="./img/hotels/intro/intro2.jpg" alt="" />
-        </div>
-        <div class="photo-div">
-          <div class="special">
-            <img src="./img/hotels/intro/intro3.jpg" alt="" class="special" />
+          <div class="photo_contents">
+            <h1 class="photo_title">Bagan Sense Hotel</h1>
+            <button class="photo_button">View Details</button>
           </div>
-          <img src="./img/hotels/intro/intro4.jpg" alt="" />
+          <img
+            src="./img//hotels/BeganSense/background.jpg"
+            alt=""
+            class="hotels"
+          />
         </div>
+        <div>
+          <div class="photo-div special">
+            <!-- <div class="special"> -->
+            <div class="photo_contents">
+              <h1 class="photo_title">Bagan Hotel Umbra</h1>
+              <button class="photo_button">View Details</button>
+            </div>
+            <img
+              src="./img/hotels/BaganHotelUmbra/background.jpg"
+              alt=""
+              class="special hotels"
+            />
+            <!-- </div> -->
+          </div>
+          <div class="photo-div">
+            <!-- <img src="./img/hotels/BeganSense/background.jpg" alt="" class="hotels" /> -->
+            <div class="photo_contents">
+              <h1 class="photo_title">Bagan Diamond Crown</h1>
+              <button class="photo_button">View Details</button>
+            </div>
+            <img
+              src="./img/hotels/MyPlaceHotel_Bagan/background.jpg"
+              alt=""
+              class="most-special hotels"
+            />
+          </div>
+        </div>
+        <div class="photo-div special">
+          <!-- <div class="special"> -->
+          <div class="photo_contents">
+            <h1 class="photo_title">My Place Hotel_Bagan</h1>
+            <button class="photo_button">View Details</button>
+          </div>
+          <img
+            src="./img/hotels/BaganDiamondCrownHotel/background.jpg"
+            alt=""
+            class="special hotels"
+          />
+          <!-- </div> -->
+        </div>
+
+        <!-- <img src="" alt="" class="hotels" /> -->
         <!-- <div class="photo-div">
           <img src="./img/background/photo2.PNG" alt="">
         </div> -->
-        <div class="photo-div">
-          <img src="./img/hotels/intro/intro5.jpg" alt="" />
-          <img src="./img/hotels/intro/intro6.jpg" alt="" />
-        </div>
 
-        <div class="photo-div">
-          <ol>
-            <li>Special Services</li>
-            <li>Premium Bed</li>
-            <li>Comfort Design</li>
-            <li>Clean room</li>
-            <li>Best Food</li>
-          </ol>
-          <div class="special">
-            <img src="./img/hotels/intro/intro1.jpg" alt="" class="special" />
+        <div class="photo-div special last_div">
+          <div class="photo_contents">
+            <h1 class="photo_title">Shwe Kant Kaw Hotel</h1>
+            <button class="photo_button">View Details</button>
           </div>
+          <img
+            src="./img/hotels/ShweKantKawHotel/background.jpg"
+            alt=""
+            class="special hotels"
+          />
         </div>
       </div>
-      <span>Images of hotels</span>
     </header>
 
     <section class="service section">
@@ -159,10 +237,17 @@
         <div class="history_content">
           <h1 class="history__heading">Room</h1>
           <p class="food__content">
-            Twenty-four-hour room service generally refers to the length of time
-            that it takes for the club sandwich to arrive. This is
-            indeeddisheartening, particularly when you've ordered scrambled
-            eggs.
+            Some of the more popular amenities offered include free wifi, free
+            breakfast, and a pool. Guests can enjoy free breakfast, an on-site
+            restaurant, and a lounge during their stay. Free parking is
+            available to guests.Guests have access to a pool during their stay.
+            Dry cleaning and laundry service are offered to guests.Guests have
+            access to a business center and meeting rooms during their
+            stay.Conveniently offers meeting rooms, a banquet room, and
+            conference facilities. The staff speaks multiple languages,
+            including English and Burmese.Some of the more popular amenities
+            offered include an on-site restaurant, a lounge, and kids
+            activities.
           </p>
         </div>
         <div class="food__div">
@@ -228,17 +313,20 @@
         <div class="history_content">
           <h1 class="history__heading">Food</h1>
           <p class="food__content">
-            There are people with otherwise chaotic and disorganized lives, a
-            certain type of person that’s always found a home in the restaurant
-            business in much the same way that a lot of people find a home in
-            the military
+            As we know that food is our primary need, so we must maintain our
+            food business well with cool food slogans and taglines to attract
+            the majority of people. We can resist buying clothes or anything
+            else, but we cannot resist hunger.Food is one of the basic needs of
+            every people in the world. The food industry receives more demand
+            and respect year after year because of the ever-increasing
+            population around the world.
           </p>
         </div>
       </div>
     </section>
 
     <section class="review--section section">
-      <h2 class="secondary__heading">Testimonial</h2>
+      <h2 class="secondary__heading">Review</h2>
       <div class="swiper mySwiper">
         <div class="swiper-wrapper wrapper">
           <div class="swiper-slide">
@@ -407,11 +495,12 @@
       <h2 class="secondary__heading">Location</h2>
       <div class="map">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.9203135390608!2d94.89180371490762!3d21.195324285908445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30b5fab4ae38bc97%3A0xdd03aab2c05044c9!2sShwezigon%20Pagoda!5e0!3m2!1sen!2smm!4v1675585044820!5m2!1sen!2smm"
+          src=""
           style="border: 0"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
+          class="iframeMap"
         ></iframe>
       </div>
     </section>

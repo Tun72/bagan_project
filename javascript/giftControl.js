@@ -14,6 +14,7 @@ var swiper = new Swiper(".mySwiper", {
   },
   pagination: {
     el: ".swiper-pagination",
+    dynamicBullets: true,
   },
 });
 
@@ -30,27 +31,13 @@ var myswiper = new Swiper(".my_Swiper", {
   },
 });
 
-const buttonSeeMore = document.querySelectorAll(".button");
+// const buttonSeeMore = document.querySelectorAll(".button");
 
 const modal = document.querySelector(".modal");
 const body = document.querySelector("body");
 
 const middle_heading = document.querySelector(".middle-heading")
 
-buttonSeeMore.forEach((i) => {
-  i.addEventListener("click", function () {
-    modal.classList.add("drop_modal");
-    setTimeout(() => {
-      window.scrollTo(0, 0);
-      body.style.overflow = "hidden";
-    }, 500);
-  });
-});
-
-modal.addEventListener("click", function () {
-  modal.classList.remove("drop_modal");
-  body.style.overflow = "scroll";
-});
 
 
 const about_text = document.querySelector(".about-text");
@@ -64,19 +51,17 @@ function getParameter(pName) {
 const id = parseInt(getParameter("id")) || 1;
 
 let data = gift_data[id-1]
-// data.forEach((i,j) => {
-//   middle_heading.innerHTML = i.pagoda;
-//   about_text.innerHTML = i.intro;
-//   detail_text.forEach((gift,j) => {
-//     gift.innerHTML = i.about[j]['para' + (j+1)]
-//     detail__img[j].src = i.about[j].img
-//   })
-
 middle_heading.innerHTML = data.pagoda;
-about_text.innerHTML = data.intro;
+about_text.innerHTML = '&emsp;&emsp;&emsp;' + data.intro;
   detail_text.forEach((gift,j) => {
     gift.innerHTML = data.about[j]['para' + (j+1)]
     detail__img[j].src = data.about[j].img
   })
-  
 // })
+
+const navBtn = document.querySelector(".navigation__button");
+const navList = document.querySelector(".navigation__list");
+navBtn.addEventListener("click", function (e) {
+  navBtn.classList.toggle("active__btn");
+  navList.classList.toggle("active__navigation__list");
+});

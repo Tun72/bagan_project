@@ -39,33 +39,7 @@ fetch("../data/data.json")
   });
 
 const showData = (data) => {
-  // data.data.map((i) => {
-  //   const div1 = document.createElement("div");
-  //   const div2 = document.createElement("div");
-  //   const card =document.createElement("div");
-  //
-  //   const h1 = document.createElement("h1");
-  //   const img = document.createElement("img");
-  //
-  //   div1.classList.add("before");
-  //   div2.classList.add("after");
-  //   card.classList.add("card");
-  //
-  //   h1.classList.add("location-header");
-  //   img.classList.add("location-img");
-  //
-  //   h1.innerText = i.name;
-  //   img.src = "./img/bagan1.jpg";
-  //   // img.width = 500;
-  //
-  //   div2.appendChild(h1);
-  //   div1.appendChild(img);
-  //
-  //   card.appendChild(div1);
-  //   card.appendChild(div2);
-  //
-  //   card_container.appendChild(card);
-  // });
+  
 };
 
 

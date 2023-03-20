@@ -3,8 +3,53 @@
   <head>
     <title>Gallery</title>
     <link rel="stylesheet" type="text/css" href="./style/galleryStyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
+    <div class="navigation">
+      <div for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon"></span>
+        <span class="navigation__icon"></span>
+        <span class="navigation__icon"></span>
+      </div>
+      <div class="navigation__background"></div>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="./home.html" class="navigation__link"
+              ><span><i class="fa-solid fa-house"></i></span>Home Page</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="./main.html" class="navigation__link"
+              ><span><i class="fa-regular fa-compass"></i></span>Main Page</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="./gallery.html" class="navigation__link"
+              ><span><i class="fa-solid fa-image"></i></span>Gallery</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#contact" class="navigation__link"
+              ><span><i class="fa-solid fa-phone"></i></span>Contact Us</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="./Login.html" class="navigation__link"
+              ><span><i class="fa-solid fa-user"></i></span>Login</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="container">
       <div class="heading">
         <h3>Photo <span>Gallery</span></h3>
@@ -23,7 +68,7 @@
           <a href="./img/gallery/photo4.jpg"
             ><img src="./img/gallery/sunset.jpg"
           /></a>
-          <a href="./img/gallery/photo5.jpg"
+          <a href="./img/gallery/shwezigon-pagoda-reflection.jpg"
             ><img src="./img/gallery/shwezigon-pagoda-reflection.jpg"
           /></a>
           <a href="./img/gallery/anada.jpg"
@@ -34,6 +79,9 @@
           /></a>
           <a href="./img/gallery/anada.jpg"
             ><img src="./img/gallery/shwesandaw.jpg"
+          /></a>
+          <a href="./img/gallery/sunset.jpg"
+            ><img src="./img/gallery/sunset.jpg"
           /></a>
         </div>
 
@@ -53,7 +101,7 @@
           <a href="./img/gallery/photo1.jpg"
             ><img src="./img/gallery/photo1.jpg"
           /></a>
-          <a href="./img/gallery/photo4.jpg"
+          <a href="./img/gallery/sunset.jpg"
             ><img src="./img/gallery/sunset.jpg"
           /></a>
           <a href="./img/gallery/photo5.jpg"
@@ -83,10 +131,19 @@
           <a href="./img/background/photo3.JPG"
             ><img src="./img/background/photo3.JPG"
           /></a>
+          <a href="./img/background/photo2.PNG"
+            ><img src="./img/background/photo2.PNG"
+          /></a>
         </div>
       </div>
     </div>
   </body>
+  <script>
+    const navBtn = document.querySelector(".navigation__button");
+    const navList = document.querySelector(".navigation__list");
+    navBtn.addEventListener("click", function (e) {
+      navBtn.classList.toggle("active__btn");
+      navList.classList.toggle("active__navigation__list");
+    });
+  </script>
 </html>
-
-<img src="" alt="" />

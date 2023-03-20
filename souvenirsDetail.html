@@ -8,18 +8,65 @@
     <link rel="stylesheet" href="./style/swiper.css" />
     <link rel="stylesheet" href="./style/giftStyle.css" />
     <link rel="stylesheet" href="./style/general.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
+    <div class="navigation">
+      <div for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon"></span>
+        <span class="navigation__icon"></span>
+        <span class="navigation__icon"></span>
+      </div>
+      <div class="navigation__background"></div>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="./home.html" class="navigation__link"
+              ><span><i class="fa-solid fa-house"></i></span>Home Page</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="./main.html" class="navigation__link"
+              ><span><i class="fa-regular fa-compass"></i></span>Main Page</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="./gallery.html" class="navigation__link"
+              ><span><i class="fa-solid fa-image"></i></span>Gallery</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#contact" class="navigation__link"
+              ><span><i class="fa-solid fa-phone"></i></span>Contact Us</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="./Login.html" class="navigation__link"
+              ><span><i class="fa-solid fa-user"></i></span>Login</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
     <header class="heading">
       <!-- <h1 class="main-heading">Memory Detail</h1> -->
-      <h2 class="middle-heading"></h2>
+      <h2 class="main-heading">The Souvenirs</h2>
     </header>
     <section class="history section">
-      <h2 class="secondary__heading">Intro</h2>
+      <div class="mid_heading">
+        <h2 class="middle-heading"></h2>
+      </div>
       <p class="about-text"></p>
     </section>
 
-    <section class="modal">
+    <!-- <section class="modal">
       <div class="swiper my_Swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
@@ -48,54 +95,43 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="section detail">
       <h2 class="secondary__heading">History</h2>
       <div class="swiper mySwiper detail__swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide detail__swiper-slide">
-            <img
-              src=""
-              class="detail__img"
-            />
+            <img src="" class="detail__img" />
             <div class="detail__div">
-              <h3 class="thirdary__heading">History</h3>
+              <!-- <h3 class="thirdary__heading">History</h3> -->
               <p class="detail-text"></p>
             </div>
-            <button class="button">See more photo</button>
+            <!-- <button class="button">See more photo</button> -->
           </div>
           <div class="swiper-slide detail__swiper-slide">
-            <img
-              src=""
-              class="detail__img"
-            />
+            <img src="" class="detail__img" />
             <div class="detail__div">
               <p class="detail-text"></p>
             </div>
-            <button class="button">See more photo</button>
+            <!-- <button class="button">See more photo</button> -->
           </div>
           <div class="swiper-slide detail__swiper-slide">
-            <img
-              src=""
-              class="detail__img"
-            />
+            <img src="" class="detail__img" />
             <div class="detail__div">
               <p class="detail-text"></p>
             </div>
-            <button class="button">See more photo</button>
+            <!-- <button class="button">See more photo</button> -->
           </div>
           <div class="swiper-slide detail__swiper-slide">
-            <img
-              src=""
-              class="detail__img"
-            />
+            <img src="" class="detail__img" />
             <div class="detail__div">
               <p class="detail-text"></p>
             </div>
-            <button class="button">See more photo</button>
+            <!-- <button class="button">See more photo</button> -->
           </div>
         </div>
+        <div class="swiper-pagination"></div>
       </div>
     </section>
     <section class="souvenirs section">
@@ -104,8 +140,10 @@
         <img src="./img/gift/shops/shop3.jpg" alt="" class="souvenirs__img" />
         <p class="location-detail">
           Location-
-          <span class="location"
-            >Myin Ka Bar Village, Sein Gone Quarter,, Old Bagan</span
+          <a
+            class="location"
+            href="https://www.facebook.com/jasminefamily?mibextid=ZbWKwL"
+            >Myin Ka Bar Village, Sein Gone Quarter,, Old Bagan</a
           >
         </p>
       </div>
@@ -113,8 +151,8 @@
         <h3 class="thirdary__heading">Bagan House</h3>
         <img src="./img/gift/shops/shop1.jpg" alt="" class="souvenirs__img" />
         <p class="location-detail">
-          Location-<span class="location"
-            >No.9, Jasmin Road, New Bagan, Mandalay Myanmar</span
+          Location-<a class="location" href="https://www.baganhouse.com/"
+            >No.9, Jasmin Road, New Bagan, Mandalay Myanmar</a
           >
         </p>
       </div>
@@ -122,8 +160,10 @@
         <h3 class="thirdary__heading">Golden Cuckoo</h3>
         <img src="./img/gift/shops/shop2.jpg" alt="" class="souvenirs__img" />
         <p class="location-detail">
-          Location-<span class="location"
-            >Myin Gabar Village, Bagan-nyaung Oo, Mandalay</span
+          Location-<a
+            class="location"
+            href="https://www.facebook.com/profile.php?id=100064170572903&mibextid=ZbWKwL"
+            >Myin Gabar Village, Bagan-nyaung Oo, Mandalay</a
           >
         </p>
       </div>
@@ -131,8 +171,10 @@
         <h3 class="thirdary__heading">Golden Bagan</h3>
         <img src="./img/gift/shops/shop4.jpg" alt="" class="souvenirs__img" />
         <p class="location-detail">
-          Location-<span class="location"
-            >No.E 103/104 , Kha Yae Road, Bagan</span
+          Location-<a
+            class="location"
+            href="https://www.facebook.com/RoyalGoldenTortoise?mibextid=ZbWKwL"
+            >No.E 103/104 , Kha Yae Road, Bagan</a
           >
         </p>
       </div>

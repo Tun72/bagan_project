@@ -7,15 +7,17 @@ function getParameter(pName) {
 const id = parseInt(getParameter("id")) || 1;
 
 const title = document.querySelector(".title");
-const background = document.querySelector(".background");
+// const background = document.querySelector(".background");
 const back_img = document.createElement("img");
 const container = document.querySelector(".container");
 const map = document.querySelector(".map_iframe");
-let place_data = data[id-1];
+const secondary__heading = document.querySelector(".title");
 
+let place_data = data[id-1];
+secondary__heading.innerHTML = place_data.pagoda + " သမိုင်းအကြောင်း";
 title.innerHTML = place_data.pagoda;
 back_img.src = place_data.images.background;
-background.appendChild(back_img);
+// background.appendChild(back_img);
 
 data.forEach((i) => {});
 
@@ -41,7 +43,7 @@ place_data.about.forEach((i, j) => {
 
   history.appendChild(history_content);
 
-  if (j % 2 != 0) {
+  if (j % 2 == 0) {
     history_card.appendChild(img_div);
     history_card.appendChild(history);
   } else {
@@ -52,3 +54,11 @@ place_data.about.forEach((i, j) => {
 });
 
 map.src = place_data.location;
+
+
+const navBtn = document.querySelector(".navigation__button");
+const navList = document.querySelector(".navigation__list");
+navBtn.addEventListener("click", function (e) {
+  navBtn.classList.toggle("active__btn");
+  navList.classList.toggle("active__navigation__list");
+});

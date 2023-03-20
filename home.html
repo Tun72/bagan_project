@@ -19,6 +19,8 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;&family=Rubik:ital,wght@0,600;0,700;1,400&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
 
   <link rel="stylesheet" href="./style/style.css" />
@@ -64,9 +66,10 @@
     <header class="intro__heading">
       <div class="intro__logo"></div>
       <div class="intro__content">
-        <h3>SEA OF TEMPLES</h3>
-        <p>Discover with us...</p>
-        <a href="./main.html" class="intro__btn">discover more</a>
+        <h3 data-aos="fade-right" data-aos-delay="500">
+          Tourist Guide Website for Bagan City
+        </h3>
+        <a href="./main.html" class="intro__btn">see more...</a>
       </div>
       <div class="video-container">
         <video
@@ -76,7 +79,6 @@
           autoplay
           muted
         ></video>
-        <!--        <img src="./img/background/photo1.PNG" alt="" id="photo-slider">-->
       </div>
       <div class="blur"></div>
     </header>
@@ -90,11 +92,15 @@
 
         <div class="about__row">
           <div class="col_1_of_2">
-            <h3 class="tertiary__heading">
+            <h3
+              class="tertiary__heading"
+              data-aos="fade-right"
+              data-aos-delay="500"
+            >
               Heading to Myanmar soon and looking for all the need to know
               information about Bagan?
             </h3>
-            <p class="paragraph">
+            <p class="paragraph" data-aos-delay="300" data-aos="zoom-in-up">
               Bagan, an ancient city located in the Mandalay region is one of
               the most visited places by tourists in the country. The city
               served as the capital of Myanmar from the 9th to 13th centuries.
@@ -103,10 +109,14 @@
               Archaeological Zone is the main attraction of the country and is
               one of the richest archaeological sites in Southeast Asia.
             </p>
-            <h3 class="tertiary__heading">
+            <h3
+              class="tertiary__heading"
+              data-aos="fade-right"
+              data-aos-delay="500"
+            >
               WHAT IS THE BEST TIME TO VISIT BAGAN?
             </h3>
-            <p class="paragraph">
+            <p class="paragraph" data-aos-delay="500" data-aos="zoom-in-up">
               Bagan is hot most of the year. Bagan’s climate is relatively
               predictable with seasons changing each year at around the same
               time. The best time to visit is between November and February,
@@ -139,17 +149,6 @@
         </div>
       </section>
       <section class="services__section div--1">
-        <!-- <div class="resources-header">
-          <span class="resources-header-active">R</span>
-          <span>E</span>
-          <span class="resources-header-active">S</span>
-          <span>O</span>
-          <span>u</span>
-          <span>r</span>
-          <span class="resources-header-active">c</span>
-          <span>e</span>
-          <span>s</span>
-        </div> -->
         <div class="resources-inner container">
           <div class="place cards" data-aos="fade-up">
             <div class="icon">
@@ -161,8 +160,7 @@
               sites in Asia. The remains of several thousand of these structures
               still exist, in varying states of conservation. The architecture
               of the buildings is magnificent, and shows off the artistic and
-              engineering achievements of ancient Myanmar craftsmen.<!--  Bagan is a
-              UNESCO World Heritage Site. -->
+              engineering achievements of ancient Myanmar craftsmen.
             </p>
           </div>
           <div class="hotel cards" data-aos="fade-up">
@@ -176,16 +174,13 @@
               although typical prices in Bagan are slightly higher for the same
               quality of room compared to much of the rest of Myanmar. Many
               places offer individual bungalow-style accommodation and numerous
-              <!-- places, even some in the budget range, have swimming pools which
-              are a great way to cool off and relax after a busy day viewing the
-              sights. -->
             </p>
           </div>
           <div class="food cards" data-aos="fade-up">
             <div class="icon">
               <i class="fa-solid fa-utensils"></i>
             </div>
-            <h2 class="sub-header">Meet Food</h2>
+            <h2 class="sub-header">Resturants</h2>
             <p class="contents">
               Bagan is a famous tourist destination in Myanmar. There are lots
               of tourists everyday. There are traditional Burmese food including
@@ -193,9 +188,6 @@
               leaf salad, fish soup rice noodles and glutinous rice. Noodle is
               very popular in Bagan, there are many kinds of noodles here such
               as Shan tofu, Nangyi thoke, Mohinga and Shan’s noodle, etc.
-              <!-- Shan
-              tofu noodle is the most unique and traditional dish of the Shan
-              tribe in Myanmar. -->
             </p>
           </div>
           <div class="memo cards" data-aos="fade-up">
@@ -339,7 +331,9 @@
             <div class="content">
               <h3>Gallery Of Bagan</h3>
               <p>The world is not in your books and maps it's out there.</p>
-              <a href="/gallery.html" class="intro__btn gallery_btn">see more</a>
+              <a href="/gallery.html" class="intro__btn gallery_btn"
+                >see more</a
+              >
             </div>
           </div>
 
@@ -348,7 +342,9 @@
             <div class="content">
               <h3>Gallery Of Bagan</h3>
               <p>The world is not in your books and maps it's out there.</p>
-              <a href="/gallery.html" class="intro__btn gallery_btn">see more</a>
+              <a href="/gallery.html" class="intro__btn gallery_btn"
+                >see more</a
+              >
             </div>
           </div>
 
@@ -357,7 +353,9 @@
             <div class="content">
               <h3>Gallery Of Bagan</h3>
               <p>The world is not in your books and maps it's out there.</p>
-              <a href="/gallery.html" class="intro__btn gallery_btn">see more</a>
+              <a href="/gallery.html" class="intro__btn gallery_btn"
+                >see more</a
+              >
             </div>
           </div>
 
@@ -366,7 +364,9 @@
             <div class="content">
               <h3>Gallery Of Bagan</h3>
               <p>The world is not in your books and maps it's out there.</p>
-              <a href="/gallery.html" class="intro__btn gallery_btn">see more</a>
+              <a href="/gallery.html" class="intro__btn gallery_btn"
+                >see more</a
+              >
             </div>
           </div>
           <div class="box">
@@ -374,7 +374,9 @@
             <div class="content">
               <h3>Gallery Of Bagan</h3>
               <p>The world is not in your books and maps it's out there.</p>
-              <a href="/gallery.html" class="intro__btn gallery_btn">see more</a>
+              <a href="/gallery.html" class="intro__btn gallery_btn"
+                >see more</a
+              >
             </div>
           </div>
           <div class="box">
@@ -390,7 +392,9 @@
             <div class="content">
               <h3>Gallery Of Bagan</h3>
               <p>The world is not in your books and maps it's out there.</p>
-              <a href="/gallery.html" class="intro__btn gallery_btn">see more</a>
+              <a href="/gallery.html" class="intro__btn gallery_btn"
+                >see more</a
+              >
             </div>
           </div>
           <div class="box">
@@ -398,7 +402,9 @@
             <div class="content">
               <h3>Gallery Of Bagan</h3>
               <p>The world is not in your books and maps it's out there.</p>
-              <a href="/gallery.html" class="intro__btn gallery_btn">see more</a>
+              <a href="/gallery.html" class="intro__btn gallery_btn"
+                >see more</a
+              >
             </div>
           </div>
         </div>
@@ -452,14 +458,14 @@
         </div>
       </section>
 
-      <section class="about__us__section">
+      <section class="about__us__section" id="about">
         <div class="resources-header">
           <span class="resources-header-active">A</span>
           <span class="resources-header-active">B</span>
           <span class="resources-header-active">O</span>
           <span class="resources-header-active">U</span>
           <span class="resources-header-active">T</span>
-          <span class="resources-header-active">&nbsp; U</span>
+          <span class="resources-header-active">&nbsp;U</span>
           <span class="resources-header-active">S</span>
         </div>
         <div class="about__section">
@@ -489,7 +495,11 @@
             </div>
 
             <div class="cards_">
-              <img src="./img/projectMembers/member2.jpg" alt="user" class="user__img" />
+              <img
+                src="./img/projectMembers/member2.jpg"
+                alt="user"
+                class="user__img"
+              />
               <h3 class="user__name">Phyo Pyae Sone</h3>
               <span class="user__position">Member</span>
               <ul class="icons">
@@ -508,7 +518,11 @@
               </ul>
             </div>
             <div class="cards_">
-              <img src="./img/projectMembers/member3.jpg" alt="user" class="user__img" />
+              <img
+                src="./img/projectMembers/member3.jpg"
+                alt="user"
+                class="user__img"
+              />
               <h3 class="user__name">Tin Aung Cho</h3>
               <span class="user__position">Member</span>
               <ul class="icons">
@@ -527,7 +541,11 @@
               </ul>
             </div>
             <div class="cards_">
-              <img src="./img/projectMembers/member4.jpg" alt="user" class="user__img" />
+              <img
+                src="./img/projectMembers/member4.jpg"
+                alt="user"
+                class="user__img"
+              />
               <h3 class="user__name">Shine Si Lwin</h3>
               <span class="user__position">Member</span>
               <ul class="icons">
@@ -546,7 +564,11 @@
               </ul>
             </div>
             <div class="cards_">
-              <img src="./img/projectMembers/member5.jpg" alt="user" class="user__img" />
+              <img
+                src="./img/projectMembers/member5.jpg"
+                alt="user"
+                class="user__img"
+              />
               <h3 class="user__name">Si Thu Linn</h3>
               <span class="user__position">Member</span>
               <ul class="icons">
@@ -566,7 +588,11 @@
             </div>
 
             <div class="cards_">
-              <img src="./img/projectMembers/member6.jpg" alt="user" class="user__img" />
+              <img
+                src="./img/projectMembers/member6.jpg"
+                alt="user"
+                class="user__img"
+              />
               <h3 class="user__name">Chaw Yu Thwin</h3>
               <span class="user__position">Member</span>
               <ul class="icons">
@@ -586,7 +612,11 @@
             </div>
 
             <div class="cards_">
-              <img src="./img/projectMembers/member7.jpg" alt="user" class="user__img" />
+              <img
+                src="./img/projectMembers/member7.jpg"
+                alt="user"
+                class="user__img"
+              />
               <h3 class="user__name">Eaint Chit Poe</h3>
               <span class="user__position">Member</span>
               <ul class="icons">
@@ -606,7 +636,11 @@
             </div>
 
             <div class="cards_">
-              <img src="./img/projectMembers/member8.jpg" alt="user" class="user__img" />
+              <img
+                src="./img/projectMembers/member8.jpg"
+                alt="user"
+                class="user__img"
+              />
               <h3 class="user__name">May Thu Thu Kyaw</h3>
               <span class="user__position">Member</span>
               <ul class="icons">
@@ -634,10 +668,6 @@
           <div class="book">
             <div class="book__form">
               <form action="#" class="form">
-                <div class="u-margin-bottom-medium">
-                  <h2 class="heading-secondary">Contact Us</h2>
-                </div>
-
                 <div class="form__group">
                   <input
                     type="text"
@@ -646,7 +676,6 @@
                     id="name"
                     required
                   />
-                  <!-- <label for="name" class="form__label">Full name</label> -->
                 </div>
 
                 <div class="form__group">
@@ -657,7 +686,6 @@
                     id="email"
                     required
                   />
-                  <!-- <label for="email" class="form__label">Email address</label> -->
                 </div>
 
                 <div class="form__group">
@@ -668,13 +696,41 @@
                     id="phone"
                     required
                   />
-                  <!-- <label for="email" class="form__label">Email address</label> -->
+                </div>
+                <div class="u-margin-bottom-medium">
+                  <textarea
+                    name="msg"
+                    id=""
+                    cols="29"
+                    rows="4"
+                    placeholder="Message"
+                    class="text__area"
+                  ></textarea>
+                  <!-- <h2 class="heading-secondary">Contact Us</h2> -->
                 </div>
 
                 <div class="form__group">
-                  <button class="intro__btn">Next step &rarr;</button>
+                  <button class="intro__btn">Sent Message &rarr;</button>
                 </div>
               </form>
+            </div>
+
+            <div class="get_in_touch">
+              <h1 class="headers">Get In Touch</h1>
+              <ul class="lists">
+                <li>
+                  <h3>Our Office</h3>
+                  <p>9th street, Yangon, Myanmar</p>
+                </li>
+                <li>
+                  <h3>Email Us</h3>
+                  <p>seaOfTemples@gmail.com</p>
+                </li>
+                <li>
+                  <h3>Call Us</h3>
+                  <p>+959 760251 300</p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -684,7 +740,7 @@
       <div class="footer__logo-box">
         <picture class="footer__logo">
           <img alt="Full logo" src="./img/icons/bagan3.png" />
-          <h3 class="logo">Sea Of Temples</h3>
+          <h3 class="logo">Tourist Guide Website for Bagan City</h3>
         </picture>
       </div>
       <div class="row">
@@ -692,13 +748,13 @@
           <div class="footer__navigation">
             <ul class="footer__list">
               <li class="footer__item">
-                <a href="#" class="footer__link">About</a>
+                <a href="#about" class="footer__link">About</a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__link">Contact us</a>
+                <a href="#contact" class="footer__link">Contact us</a>
               </li>
               <li class="footer__item">
-                <a href="#" class="footer__link">Gallery</a>
+                <a href="#gallery" class="footer__link">Gallery</a>
               </li>
               <li class="footer__item">
                 <a href="#" class="footer__link">Privacy policy</a>
@@ -730,12 +786,13 @@
         slidesPerView: 2.5,
         spaceBetween: 30,
         freeMode: true,
-        // centeredSlides: true,
         autoplay: {
           delay: 2500,
           disableOnInteraction: false,
         },
       });
+
+      AOS.init();
     </script>
   </body>
 </html>
